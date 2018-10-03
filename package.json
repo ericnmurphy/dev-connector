@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Social network for developers",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
   "author": "Eric Murphy",
   "license": "MIT",
   "dependencies": {
